@@ -1,0 +1,16 @@
+[project]
+name = "time-series"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "darts==0.33.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel==6.29.5",
+    "ipython==8.32.0",
+    "ipywidgets==8.1.5",
+]
