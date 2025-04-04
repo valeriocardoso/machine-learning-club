@@ -1,0 +1,11 @@
+[project]
+name = "granite-ts"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "granite-tsfm[notebooks]==0.2.23",
+    "kaleido==0.2.1",
+    "numpy>=2.2.4",
+]
